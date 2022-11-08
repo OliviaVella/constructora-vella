@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Constructora Vella</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li> <a href="/index.html">
+                    <img src="/img/en-construccion.png" alt="">
+                </a> 
+                </li>
+                <li> <a href="/index.html">Inicio</a> </li>
+                <li> <a href="#quienes">¿Quienes somos?</a> </li>
+                <li id="casas_menu"> 
+                    <a href="#casas">Nuestras casas</a> 
+                    <div id="menu"></div>
+                </li>
+                <li> <a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="card">
+            <img src="img/grua.jpg" alt="">
+            <div class="texto">
+                <h2>Constructora Vella</h3>
+                <p>
+                    Lorem ipsum dolor sit amet 
+                    consectetur, adipisicing elit. Consequatur 
+                    itaque incidunt eligendi ea. Perspiciatis 
+                    dolores mollitia illum, itaque expedita nesciunt
+                    sapiente vero molestiae sint eos nemo. Aliquam
+                    in atque ex?
+                </p>
+            </div>
+        </div>
+        <div class="card" id="quienes">
+            <div class="texto">
+                <h2>¿Quienes somos?</h3>
+                <p>
+                    Lorem ipsum dolor sit amet 
+                    consectetur, adipisicing elit. Consequatur 
+                    itaque incidunt eligendi ea. Perspiciatis 
+                    dolores mollitia illum, itaque expedita nesciunt
+                    sapiente vero molestiae sint eos nemo. Aliquam
+                    in atque ex?
+                </p>
+            </div>
+            <img src="img/edificios.jpg" alt="">
+        </div>
+
+        <div class="titulo-casas" id="casas">
+            <h1>Nuestras casas</h1>
+        </div>
+        <div id="casas-container">
+            <div class="card">
+                <img src="img/casucha1.jpg" alt="">
+                <div class="texto">
+                    <h2>Casa 1</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur, adipisicing elit. Consequatur 
+                        itaque incidunt eligendi ea. Perspiciatis 
+                        dolores mollitia illum, itaque expedita nesciunt
+                        sapiente vero molestiae sint eos nemo. Aliquam
+                        in atque ex?
+                    </p>
+                </div>
+            </div>
+            <div class="separador"></div>
+            <div class="card">
+                <img src="img/casucha2.jpg" alt="">
+                <div class="texto">
+                    <h2>Casa 2</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet 
+                        consectetur, adipisicing elit. Consequatur 
+                        itaque incidunt eligendi ea. Perspiciatis 
+                        dolores mollitia illum, itaque expedita nesciunt
+                        sapiente vero molestiae sint eos nemo. Aliquam
+                        in atque ex?
+                    </p>
+                </div>
+            </div>
+            <div class="separador"></div>
+        </div>
+        <div class="agregar-casa">
+            <h3>Agregar casa</h3>
+            <h6>Titulo: </h6>
+            <input id="titulo" type="text" placeholder="Casa 3">
+            <h6>Descripción: </h6>
+            <input id="des" type="text" placeholder="Mi casa es...">
+            <h6>Link de foto: </h6>
+            <input id="link" type="text" placeholder="https://google.com/foto...">
+            
+            <div>
+                <button>+</button>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <h2 class="subtitulos"> Links de Interes</h2>
+        <div class="linksF">
+            <div class="logos"> <a href="https://www.instagram.com/oli.vella/"> <figu><img src="img\logotipo-de-instagram.png" width="50"></figu> </a> </div>
+            <div class="logos"> <a href="https://web.whatsapp.com/"> <figu><img src="img\whatsapp.png" width="50"></figu> </a> </div>
+            <div class="logos"> <a href="https://www.itba.edu.ar/itba-negocios/?utm_source=Google&utm_medium=Ads&utm_campaign=Campa%C3%B1a+Negocios+2022&utm_id=Campa%C3%B1a+Negocios+2022"> <figu><img src="img\logo-itba.jpg" width="70"></figu> </a> </div>
+        </div>
+    </footer>
+
+    <script src="/menu.js"></script>
+    <script src="/casas.js"></script>
+
+</body>
+
+</html>
